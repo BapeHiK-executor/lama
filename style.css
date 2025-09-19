@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #28284e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.download {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.download .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.download .btn:hover {
+    background: #45a049;
+}
+
+.features {
+    margin-top: 2rem;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pros-cons {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.pros, .cons {
+    background: #33334d;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 45%;
+}
+
+.pros h3, .cons h3 {
+    margin-top: 0;
+    color: #4caf50;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    position: relative;
+}
+
+ul li::before {
+    content: "✔";
+    color: #4caf50;
+    position: absolute;
+    left: 0;
+}
+
+.cons ul li::before {
+    content: "✖";
+    color: #ff4c4c;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #28284e;
+    margin-top: 2rem;
+}
